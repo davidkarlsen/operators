@@ -34,7 +34,7 @@ tasks:
     spec:
       resources:
         - backup.yaml
-  - name: backup-clenaup
+  - name: backup-cleanup
     kind: Delete
     spec:
       resources:
